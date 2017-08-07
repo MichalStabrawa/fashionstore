@@ -1,0 +1,199 @@
+        /* General Styles - Start */
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: black;
+            font-family: 'Cinzel', serif;
+            color:#fff;
+        }
+        
+        h2,h3,h4 {
+            margin-bottom: 30px;
+            margin-top: 30px;
+        }
+
+input[type="text"]{
+    background-color: transparent;
+}
+button[type="submit"]{
+    background-color: transparent;
+    color:#fff;
+}
+        /*Nav*/
+        
+        .navbar {
+            background-color: black;
+            margin-bottom: 0px;
+        }
+        
+        .navbar-default {
+            border-color: transparent;
+        }
+        
+        .navbar-default .navbar-nav>li>a {
+            color: #ffd700;
+        }
+        /*Section THEMA*/
+        
+        #thema {
+            background-image: url(../img/background-869603_1280.png);
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+        }
+        
+        #thema .col-md-6 {
+            text-align: center;
+            padding: 5px;
+        }
+        
+        #thema .col-md-6 .fa {
+            margin: 5px;
+        }
+        /*Header*/
+        
+        header {
+            position: relative;
+        }
+        
+        header img {
+            width: 100%;
+            height: 800px;
+        }
+        
+        header .jumbotron {
+            color: #ffd700;
+            position: absolute;
+            top: 10%;
+            left: 10%;
+            background-color: transparent;
+        }
+        /*Portfolio**************************8*/
+        
+        #portfolio .row .col-md-6,
+        .col-md-4 {
+            padding: 0px;
+        }
+        
+        #portfolio figure {
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        #portfolio figure img {
+            width: 100%;
+            transition: all 1s;
+        }
+        
+        #portfolio figure img:hover {
+            transform: scale(1.1);
+            transition: 0.5s;
+        }
+#portfolio-mask {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: gold;
+    z-index: 10;
+    top: 0;
+     background-color:  rgba(156, 125, 44, 0.6);
+    transition: 0.2s;
+    opacity:0;
+    
+}
+#portfolio-mask h4{
+     position: absolute;
+  
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#portfolio-mask:hover{
+    opacity:1;
+   
+   
+    
+}
+  /*Company*******************************************/
+        
+        #company {
+            color: gold;
+            background-image: url(../img/background-869603_1280.png);
+            background-size: cover;
+            background-position: center;
+        }
+        
+        #company .row .col-md-4 {
+            text-align: center;
+        }
+        /*SEction Carousel-Model-------------------------------------------**************************************************************************************/
+        
+        #carousel-model .col-md-6 {
+            padding: 0px;
+            color: #fff;
+        }
+
+        
+        #carousel-model .col-md-6 img {
+            width: 100%;
+        }
+        
+        #carousel-model  h3{
+            text-align: center;
+            color:#fff;
+        }
+#sliderek p{
+    text-align: center;
+    margin:10px;
+}
+#sliderek figure{
+    text-align: center;
+}
+
+/*Footer style start*/
+
+footer{height: auto;
+    width: 100%;
+ background-color: #fff;
+    background-position: center;
+    background-size: cover;
+  text-align: center;
+    color:black;
+}
+
+footer h4{
+    margin-top: 30px;
+    text-align: center;
+}
+footer #pokaz{
+    display: none;
+
+    
+}
+footer #pokaz form input,textarea{color:black;
+    background-color: transparent;
+    border-radius: 5px;
+    margin: 5px;
+}
+footer textarea{
+    width:392px;
+}
+
+footer #button1{margin-top:30px;
+    background-color: transparent;
+    border-radius: 5px;
+    color:black;
+    margin-bottom: 10px;
+}
+
+footer #socialMedia2 .fa{
+    margin: 5px;
+}
+
+
+
