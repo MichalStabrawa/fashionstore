@@ -92,13 +92,14 @@ header #popup #popimg{
 
 header #popup .fa{
     position: absolute;
+  
 }
 
 
 header button{max-width:   146px;
     max-height: 46px;
     position: absolute;
-      top: 50%; 
+      top: 80%; 
   left: 50%;
   transform: translate(-50%, -50%);
     border-radius: 5px
