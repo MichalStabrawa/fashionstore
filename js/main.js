@@ -42,3 +42,12 @@ function wyslij(){
 }
 
 document.getElementById('button1').addEventListener('click',wyslij)
+
+
+/*Popup*******************************************************************************************************************************8*/
+
+function popUp1(){
+    var baner=document.getElementById('popup')
+    baner.style='display:none'
+    }
+document.getElementById('hidepop').addEventListener('click',popUp1)
