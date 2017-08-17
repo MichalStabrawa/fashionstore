@@ -51,3 +51,6 @@ function popUp1(){
     baner.style='display:none'
     }
 document.getElementById('hidepop').addEventListener('click',popUp1)
+
+
+

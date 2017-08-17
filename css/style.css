@@ -76,9 +76,8 @@
         }
         
         header #popup {
-            border: 2px solid gold;
-            width: 50%;
-            height: 40%;
+          
+          
             position: absolute;
             z-index: 10;
             top: 50%;
@@ -86,6 +85,7 @@
             transform: translate(-50%, -50%);
             color: #fff;
             overflow: hidden;
+            
         }
         
         header #popup #popimg {
@@ -98,14 +98,14 @@
         }
         
         header button {
-            max-width: 146px;
-            max-height: 46px;
+          
             position: absolute;
             top: 80%;
             left: 50%;
             transform: translate(-50%, -50%);
             border-radius: 5px;
-            background-color: transparent;
+            background-color: gold;
+            
         }
         /*Portfolio**************************8*/
         
