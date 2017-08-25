@@ -55,8 +55,13 @@
         
         #thema .col-md-6 .fa {
             margin: 5px;
+            transition: 0.5s
         }
-        /*Header*/
+#thema .col-md-6 .fa:hover{
+    color:gold;
+    transition: 0.5s;
+}
+        /*Header******************************************************************************************************************/
         
         header {
             position: relative;
@@ -80,13 +85,18 @@
           
             position: absolute;
             z-index: 10;
-            top: 50%;
+            top: 30%;
             left: 50%;
             transform: translate(-50%, -50%);
             color: #fff;
             overflow: hidden;
+            display:none;
             
         }
+header #popup h2{
+    position: absolute;
+    left: 10%;
+}
         
         header #popup #popimg {
             width: 100%;
@@ -279,3 +289,6 @@
             margin-bottom: 20px;
             margin-top: 20px;
         }
+footer #socialMedia2 .fa:hover{
+    color:gold;
+}

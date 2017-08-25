@@ -46,6 +46,18 @@ document.getElementById('button1').addEventListener('click',wyslij)
 
 /*Popup*******************************************************************************************************************************8*/
 
+var myVar;
+
+function myFunction() {
+    myVar = setTimeout(popUp, 3000);
+};
+
+
+function popUp(){
+  var popSchowaj=document.getElementById('popup');
+  popSchowaj.style="display:block"
+};
+
 function popUp1(){
     var baner=document.getElementById('popup')
     baner.style='display:none'
