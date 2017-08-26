@@ -26,10 +26,11 @@
             color: #fff;
         }
         /*Nav*/
-        
+
         .navbar {
-            background-color: black;
+            background-color:black;
             margin-bottom: 0px;
+            width: 100%;
         }
         
         .navbar-default {
