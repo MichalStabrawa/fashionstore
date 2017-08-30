@@ -100,11 +100,18 @@
 
     <header>
         <!--Pop Up----------------------------------------------------------------------------------------------------->
-        <div id="popup" onload="popUpShow()">
-            <h2>HELLO WORLD!!!</h2>
-            <button class="btn btn-primary " "btn-lg " type="button" aria-haspopup="true" aria-expanded="false">
-                SHOW<span class="caret"></span>
-            </button><i class="fa fa-times" aria-hidden="true" id="hidepop"></i><img src="img/sale.jpg" alt="" id="popimg"></div>
+        
+                  <div id="popup" onload="popUpShow()">
+            <h3>Sign Up for Our Newsletter</h3><i class="fa fa-3x fa-envelope-o" aria-hidden="true"></i>
+            
+            <form>
+                <input type="email" placeholder="Your email adress">
+                <input type="submit" value="Submit">
+                <input type="button" id="popNone" value="No Thanks">
+            </form>
+           </div>
+       
+       
 
         <!--Jumbotron------------------------------------------------------------------------------------------------------>
         <div class="jumbotron">
@@ -138,33 +145,46 @@
     <section id="portfolio">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6">
-                    <div id="img-frame">
-                        <figure><img src="img/girl-1828536_640.jpg" class="img-responsive" alt="">
-                            <div id="portfolio-mask">
-                                <h4>Lorem</h4>
-                                <div id="maska"></div>
-                            </div>
-                        </figure>
-                    </div>
+                <div class="col-md-6" id="example">
+                    <figure><img src="img/girl-1828536_640.jpg" class="img-responsive" alt="">
+                        <a class="link" href="">
+                            <p><i class="fa fa-2x fa-search-plus" aria-hidden="true"></i></p>
+                            <p>NEW COLLECTION</p>
+                        </a>
+                    </figure>
                 </div>
                 <div class="col-md-6" id="example1">
                     <figure><img src="img/fashion-1063100_640.jpg" class="img-responsive" alt="">
-                    <a class="link" href="" >
-                       <p><i class="fa fa-2x fa-search-plus" aria-hidden="true"></i></p>
-                        <p>NEW COLLECTION</p>
-                        </a></figure>
-                </div>    
+                        <a class="link" href="">
+                            <p><i class="fa fa-2x fa-search-plus" aria-hidden="true"></i></p>
+                            <p>NEW COLLECTION</p>
+                        </a>
+                    </figure>
+                </div>
             </div>
             <div class="row">
-                <div class="col-md-4 col-xs-12">
-                    <figure><img src="img/foto1.jpg" class="img-responive" alt=""></figure>
+                <div class="col-md-4 col-xs-12" id="example2">
+                    <figure>
+                       <img src="img/foto1.jpg" class="img-responive" alt="">
+                        <a class="link" href="">
+                            <p><i class="fa fa-2x fa-search-plus" aria-hidden="true"></i></p>
+                            <p>NEW COLLECTION</p>
+                        </a>
+                    </figure>
                 </div>
-                <div class="col-md-4 col-xs-12">
-                    <figure><img src="img/foto2.jpg" class="img-responsive" alt=""></figure>
+                <div class="col-md-4 col-xs-12" id="example3">
+                    <figure><img src="img/foto2.jpg" class="img-responsive" alt="">
+                     <a class="link" href="">
+                            <p><i class="fa fa-2x fa-search-plus" aria-hidden="true"></i></p>
+                            <p>NEW COLLECTION</p>
+                        </a></figure>
                 </div>
-                <div class="col-md-4 col-xs-12">
-                    <figure><img src="img/foto3.jpg" class="img-responsive" alt=""></figure>
+                <div class="col-md-4 col-xs-12" id="example4">
+                    <figure><img src="img/foto3.jpg" class="img-responsive" alt="">
+                     <a class="link" href="">
+                            <p><i class="fa fa-2x fa-search-plus" aria-hidden="true"></i></p>
+                            <p>NEW COLLECTION</p>
+                        </a></figure>
                 </div>
             </div>
         </div>

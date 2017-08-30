@@ -85,37 +85,47 @@
         }
         
         header #popup {
-            position: absolute;
-            z-index: 10;
+            border: 2px solid gold;
+            width: 700px;
+            background-color: #fff;
+            position: fixed;
+            z-index: 109;
             top: 30%;
             left: 50%;
             transform: translate(-50%, -50%);
             color: #fff;
             overflow: hidden;
             display: none;
+            opacity: 0.9;
+            text-align: center;
+            border-radius: 5px;
         }
         
-        header #popup h2 {
-            position: absolute;
-            left: 10%;
-        }
-        
-        header #popup #popimg {
-            width: 100%;
-            height: 100%;
+        header #popup h3 {
+            color: #111;
+            text-align: center;
         }
         
         header #popup .fa {
-            position: absolute;
+            color: black;
         }
         
-        header button {
-            position: absolute;
-            top: 80%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+        header #popup input[type="submit"] {
+            width: 150px;
+            height: 35px;
+            background: gold;
+            margin-top: 10px;
             border-radius: 5px;
-            background-color: gold;
+            margin-bottom: 10px;
+        }
+        
+        header #popup input[type="button"] {
+            width: 150px;
+           height: 35px;
+            background: black;
+            margin-top: 10px;
+            border-radius: 5px;
+            margin-bottom: 10px;
         }
         /*Portfolio*************************_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________-*8*/
         
@@ -139,8 +149,7 @@
             transform: scale(1.1);
             transition: 0.5s;
         }
-        
-        #portfolio-mask {
+        /* #portfolio-mask {
             position: absolute;
             width: 100%;
             height: 100%;
@@ -161,9 +170,25 @@
         
         #portfolio-mask:hover {
             opacity: 1;
-        }
+        }*/
         
         #example {
+            position: relative;
+        }
+        
+        #example1 {
+            position: relative;
+        }
+        
+        #example2 {
+            position: relative;
+        }
+        
+        #example3 {
+            position: relative;
+        }
+        
+        #example4 {
             position: relative;
         }
         
@@ -182,15 +207,32 @@
             opacity: 0;
         }
         
+        #example:hover .link {
+            opacity: 0.8;
+        }
+        
         #example1:hover .link {
             opacity: 0.8;
         }
-.link p{
-    position: relative;
-    top:50%;
-    left: 50%;
-    transform: translate(-50%,-50%)
-}
+        
+        #example2:hover .link {
+            opacity: 0.8;
+        }
+        
+        #example3:hover .link {
+            opacity: 0.8;
+        }
+        
+        #example4:hover .link {
+            opacity: 0.8;
+        }
+        
+        .link p {
+            position: relative;
+            top: 35%;
+            left: 50%;
+            transform: translate(-50%, -50%)
+        }
         /*Company*******************************************/
         
         #company {
