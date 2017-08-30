@@ -28,6 +28,8 @@
         /*Nav*/
         
         .navbar {
+            position: fixed;
+            z-index: 100;
             background-color: black;
             margin-bottom: 0px;
             width: 100%;
@@ -115,7 +117,7 @@
             border-radius: 5px;
             background-color: gold;
         }
-        /*Portfolio**************************8*/
+        /*Portfolio*************************_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________-*8*/
         
         #portfolio .row .col-md-6,
         .col-md-4 {
@@ -160,6 +162,35 @@
         #portfolio-mask:hover {
             opacity: 1;
         }
+        
+        #example {
+            position: relative;
+        }
+        
+        .link {
+            text-align: center;
+            position: absolute;
+            display: block;
+            width: 100%;
+            height: 25%;
+            background-color: #111;
+            left: 0px;
+            bottom: 0px;
+            color: #fff;
+            z-index: 500;
+            transition: opacity 0.5s ease-in-out;
+            opacity: 0;
+        }
+        
+        #example1:hover .link {
+            opacity: 0.8;
+        }
+.link p{
+    position: relative;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
         /*Company*******************************************/
         
         #company {
@@ -271,37 +302,39 @@
             display: none;
         }
         
-footer #pokaz form input[type="name"],input[type="email"]{
-    width: 300px;
+        footer #pokaz form input[type="name"],
+        input[type="email"] {
+            width: 300px;
+            height: 35px;
             color: black;
             background-color: transparent;
             border-radius: 5px;
             margin-top: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-        footer #pokaz form textarea
-         { width: 300px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        footer #pokaz form textarea {
+            width: 300px;
             color: black;
             background-color: transparent;
             border-radius: 5px;
             margin: 5px;
         }
-
-footer #pokaz form input[type="submit"]{
-    color: black;
+        
+        footer #pokaz form input[type="submit"] {
+            color: black;
             width: 300px;
+            height: 35px;
             border-radius: 5px;
             display: block;
             margin: 10px;
             height: 35px;
             background-color: gold;
-    margin-left: auto;
-    margin-right: auto;
-}
-       
+            margin-left: auto;
+            margin-right: auto;
+        }
         
         footer #button1 {
             margin-top: 30px;
@@ -309,6 +342,8 @@ footer #pokaz form input[type="submit"]{
             border-radius: 5px;
             color: black;
             margin-bottom: 10px;
+            width: 300px;
+            height: 35px;
         }
         
         footer #socialMedia2 .fa {
@@ -389,7 +424,7 @@ footer #pokaz form input[type="submit"]{
             width: 300px;
             border-radius: 5px;
             display: block;
-           margin:10px;
+            margin: 10px;
             height: 35px;
             padding: 5px;
             background-color: #fff;
