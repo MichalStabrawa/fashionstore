@@ -75,7 +75,7 @@ function basket(){
     var price1=document.getElementById('showBasket1');
     var priceInner1=document.getElementById('innerPrice');
     price1.style="display:block";
-    priceInner1.innerHTML="Twoja cena to" +" " +  cennik[0] + "zl";
+    priceInner1.innerHTML="Price" +" " +  cennik[0] + "zl";
 }
 
 document.getElementById('buttonPrice1').addEventListener('click',basket)
@@ -84,7 +84,7 @@ function basket1(){
     var price1=document.getElementById('showBasket1');
     var priceInner1=document.getElementById('innerPrice');
     price1.style="display:block";
-    priceInner1.innerHTML="Twoja cena to" +" " + cennik[1] + "zl";
+    priceInner1.innerHTML="Price" +" " + cennik[1] + "zl";
 }
 
 document.getElementById('buttonPrice2').addEventListener('click',basket1)
@@ -93,7 +93,7 @@ function basket2(){
     var price1=document.getElementById('showBasket1');
     var priceInner1=document.getElementById('innerPrice');
     price1.style="display:block";
-    priceInner1.innerHTML="Twoja cena to" +" " + cennik[2] + "zl";
+    priceInner1.innerHTML="Price" +" " + cennik[2] + "zl";
 }
 
 document.getElementById('buttonPrice3').addEventListener('click',basket2)
