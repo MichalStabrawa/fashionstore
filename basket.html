@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <title>Fashion Store</title>
+
+    <!--Font-->
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Vidaloka" rel="stylesheet">
+
+    <!-- Font awensome  -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!--Mein style-->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+
+
+</head>
+
+<body onload="myFunction()">
+
+    <nav class="navbar navbar-default" id="main-nav-basket">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="">FASHION STORE</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="#shop1">New Collection</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Collection<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#portfolio">T-shirt</a></li>
+                            <li><a href="#portfolio">Jeans</a></li>
+                            <li><a href="#portfolio">Jackets</a></li>
+
+                        </ul>
+                    </li>
+                    <li><a href="index2.html">Sale</a></li>
+                    <li><a href="#contact1">Contact</a></li>
+                </ul>
+
+
+                <form class="navbar-form navbar-right">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default">Search</button>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="basket.html">Buy now</a></li>
+
+
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user" aria-hidden="true"></i><span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="koszyk.html">Login</a></li>
+                            <li><a href="register.html">Register</a></li>
+
+
+                        </ul>
+                    </li>
+
+                </ul>
+
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    
+    
+    <header>
+    <div id="header-basket"></div>
+     
+    </header>
+    
+    
+    
+    <section id="basket-buy">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Your Basket</h2>
+                </div>
+                
+                     <div class="col-md-6">
+                    <i class="fa fa-3x fa-shopping-basket" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam ducimus sint magnam. Quia iusto facere ipsa expedita illum ad reiciendis numquam. Molestias consequatur saepe cumque sequi reprehenderit ducimus magnam a.</div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-6">
+                    
+                </div>
+                 <div class="col-md-6">
+                   
+                    <input type="submit" value="buy now">
+                     <input type="button" value="continue">
+                    
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+
+
+
+   
+    <footer id="contact1">
+        <div class="container">
+            <div class="row">
+
+                <h4>Contact</h4>
+                <div class="col-md-12"><i class="fa fa-address-card" aria-hidden="true"> 31-439 Cracow Ul.Dluga 34 </i>
+                    <i class="fa fa-phone-square" aria-hidden="true"> 12 344 56 78</i>
+                    <i class="fa fa-envelope" aria-hidden="true"> example@example.com</i></div>
+                <button id="button1">Question</button>
+
+            </div>
+            <div class="row">
+
+                <div class=".col-md-6 .col-md-offset-3" id="pokaz">
+                    <form>
+                        <input type="name" placeholder="name">
+                        <input type="email" placeholder="email">
+                        <br>
+                        <textarea placeholder="text"></textarea>
+                        <br>
+                        <input type="submit" value="submit">
+
+                    </form>
+                </div>
+
+
+            </div>
+            <div class="row">
+
+                <div class=".col-md-6 .col-md-offset-3 " id="socialMedia2"><i class="fa fa-2x fa-facebook" aria-hidden="true"></i><i class="fa fa-2x fa-instagram" aria-hidden="true"></i><i class="fa fa-2x fa-youtube" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+    <!--JQuery Library-->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

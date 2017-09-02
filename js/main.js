@@ -66,3 +66,43 @@ document.getElementById('popNone').addEventListener('click',popUp1)
 
 
 
+/*Shop showBasket Function*/
+
+var cennik=[459,350,200]
+//basket price function
+
+function basket(){
+    var price1=document.getElementById('showBasket1');
+    var priceInner1=document.getElementById('innerPrice');
+    price1.style="display:block";
+    priceInner1.innerHTML="Twoja cena to" +" " +  cennik[0] + "zl";
+}
+
+document.getElementById('buttonPrice1').addEventListener('click',basket)
+
+function basket1(){
+    var price1=document.getElementById('showBasket1');
+    var priceInner1=document.getElementById('innerPrice');
+    price1.style="display:block";
+    priceInner1.innerHTML="Twoja cena to" +" " + cennik[1] + "zl";
+}
+
+document.getElementById('buttonPrice2').addEventListener('click',basket1)
+
+function basket2(){
+    var price1=document.getElementById('showBasket1');
+    var priceInner1=document.getElementById('innerPrice');
+    price1.style="display:block";
+    priceInner1.innerHTML="Twoja cena to" +" " + cennik[2] + "zl";
+}
+
+document.getElementById('buttonPrice3').addEventListener('click',basket2)
+
+//basket hide function
+
+function basketHide(){
+    var basketButton=document.getElementById('showBasket1');
+    basketButton.style="displey:none";
+}
+document.getElementById('basketHide1').addEventListener('click',basketHide)
+
