@@ -74,8 +74,11 @@ var cennik=[459,350,200]
 function basket(){
     var price1=document.getElementById('showBasket1');
     var priceInner1=document.getElementById('innerPrice');
+    var numer=document.getElementById('numer').value;
     price1.style="display:block";
-    priceInner1.innerHTML="Price" +" " +  cennik[0] + "zl";
+    priceInner1.innerHTML="Price" +" " +numer*  cennik[0] + "zl";
+    
+   
 }
 
 document.getElementById('buttonPrice1').addEventListener('click',basket)
@@ -92,6 +95,8 @@ document.getElementById('buttonPrice2').addEventListener('click',basket1)
 function basket2(){
     var price1=document.getElementById('showBasket1');
     var priceInner1=document.getElementById('innerPrice');
+    var szt=document.getElementById('numer').value;
+    
     price1.style="display:block";
     priceInner1.innerHTML="Price" +" " + cennik[2] + "zl";
 }
@@ -105,4 +110,8 @@ function basketHide(){
     basketButton.style="displey:none";
 }
 document.getElementById('basketHide1').addEventListener('click',basketHide)
+
+
+
+ 
 
