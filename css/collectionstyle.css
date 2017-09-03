@@ -1,0 +1,122 @@
+/*COLLECTION.html style -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+  /*Nav*/
+        
+        .navbar {
+            position: fixed;
+            z-index: 100;
+            background-color: black;
+            margin-bottom: 0px;
+            width: 100%;
+        }
+        
+        .navbar-default {
+            border-color: transparent;
+        }
+        
+        .navbar-default .navbar-nav>li>a {
+            color: #ffd700;
+        }
+#main-nav-collection{
+    background-color: transparent;
+}
+
+
+#header-collection{
+    background-image: url(../img/eyes-586849_1920.jpg);
+    width: 100%;
+    height:100vh;
+    background-position:center;
+    background-image: cover;
+   
+    
+}
+
+#collection-content{
+    background-color: #fff;
+    color:black;
+}
+
+#collection-content .container{
+    text-align: center;
+}
+
+#collection-content  .row .col-md-6 img {
+    margin-top: 50px;
+    padding: 0px;
+    width: 80%;
+}
+
+  /*Footer style start*/
+        
+        footer {
+            height: auto;
+            width: 100%;
+            background-color: #fff;
+            background-position: center;
+            background-size: cover;
+            text-align: center;
+            color: black;
+        }
+        
+        footer h4 {
+            margin-top: 30px;
+            text-align: center;
+        }
+        
+        footer #pokaz {
+            display: none;
+        }
+        
+        footer #pokaz form input[type="name"],
+        input[type="email"] {
+            width: 300px;
+            height: 35px;
+            color: black;
+            background-color: transparent;
+            border-radius: 5px;
+            margin-top: 10px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        footer #pokaz form textarea {
+            width: 300px;
+            color: black;
+            background-color: transparent;
+            border-radius: 5px;
+            margin: 5px;
+        }
+        
+        footer #pokaz form input[type="submit"] {
+            color: black;
+            width: 300px;
+            height: 35px;
+            border-radius: 5px;
+            display: block;
+            margin: 10px;
+            height: 35px;
+            background-color: gold;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        footer #button1 {
+            margin-top: 30px;
+            background-color: transparent;
+            border-radius: 5px;
+            color: black;
+            margin-bottom: 10px;
+            width: 300px;
+            height: 35px;
+        }
+        
+        footer #socialMedia2 .fa {
+            margin: 5px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+        
+        footer #socialMedia2 .fa:hover {
+            color: gold;
+        }
