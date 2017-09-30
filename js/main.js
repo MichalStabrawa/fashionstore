@@ -125,11 +125,14 @@ function scrollFunction() {
     }
 }
 
-$('#myBtn').on('click',function(){
+
+    $('#myBtn').on('click',function(){
     $('body').animate({
-        scrollTop: $('body').offset().top
+        scrollTop: $('.navbar-default').offset().top
     }, 1000);
 })
+
+
 
 
 
