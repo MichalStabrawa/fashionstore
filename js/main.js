@@ -127,8 +127,8 @@ function scrollFunction() {
 
 
     $('#myBtn').on('click',function(){
-    $('body').animate({
-        scrollTop: $('.navbar-default').offset().top
+    $('html, body').animate({
+        scrollTop: $('header').offset().top
     }, 1000);
 })
 
